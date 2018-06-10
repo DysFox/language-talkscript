@@ -1,0 +1,22 @@
+'scopeName': 'source.talkscript'
+'name': 'Talkscript'
+'fileTypes': 'talk'
+
+'patterns': [
+	{
+		'match': '@set '
+		'name': 'keyword.talkscript'
+	},
+	{
+		'match': '#[0-9]{1,100}'
+		'name': 'variable.talkscript'
+	},
+	{
+		'match': '/@rp/talk/[0-9]{1,5}/[a-z?A-Z]{1,500}'
+		'name': 'entity.name.type.talkscript'
+	},
+	{
+		'match': '%[a-z]'
+		'name': 'variable.talkscript'
+	}
+]

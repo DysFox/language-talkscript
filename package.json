@@ -9,5 +9,9 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/FoxyDysphoria/language-talkscript"
-	}
+	},
+	"bugs": {
+		"url": "https://github.com/FoxyDysphoria/language-talkscript/issues"
+	},
+	"license": "MIT"
 }
