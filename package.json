@@ -1,0 +1,13 @@
+{
+	"name": "language-talkscript",
+	"version": "0.0.0",
+	"description": "Talkscript support for Atom.",
+	"engines": {
+		"atom": "*"
+	},
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FoxyDysphoria/language-talkscript"
+	}
+}
