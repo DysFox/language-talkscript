@@ -9,7 +9,7 @@
 	},
 	{
 		'match': '#[0-9]{1,100}'
-		'name': 'variable.talkscript'
+		'name': 'constant.other.numeric.talkscript'
 	},
 	{
 		'match': '/@rp/talk/[0-9]{1,5}/[a-z?A-Z]{1,500}'
