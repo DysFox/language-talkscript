@@ -1,6 +1,10 @@
 'scopeName': 'source.talkscript'
 'name': 'Talkscript'
-'fileTypes': 'talk'
+'fileTypes': [
+	'talk'
+]
+'limitLineLength': no
+'maxTokensPerLine': 1000
 
 'patterns': [
 	{
@@ -31,19 +35,19 @@
 	},
 	#else if and other keywords
 	{
-		'match': 'if'
+		'match': 'if '
 		'name': 'keyword.control.talkscript'
 	},
 	{
-		'match': 'else'
+		'match': 'else '
 		'name': 'keyword.control.talkscript'
 	},
 	{
-		'match': 'end'
+		'match': 'end '
 		'name': 'keyword.control.talkscript'
 	},
 	{
-		'match': 'set'
+		'match': 'set '
 		'name': 'keyword.control.talkscript'
 	},
 	{
