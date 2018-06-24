@@ -18,5 +18,44 @@
 	{
 		'match': '%[a-z]'
 		'name': 'variable.talkscript'
+	},
+	#stringparsing open / close
+	{
+		'match': '\\[|\\]'
+		'name': 'keyword.control.talkscript'
+	},
+	#numeric
+	{
+		'match': '[0-9]{1,5}'
+		'name': 'constant.other.numeric.talkscript'
+	},
+	#else if and other keywords
+	{
+		'match': 'if'
+		'name': 'keyword.control.talkscript'
+	},
+	{
+		'match': 'else'
+		'name': 'keyword.control.talkscript'
+	},
+	{
+		'match': 'end'
+		'name': 'keyword.control.talkscript'
+	},
+	{
+		'match': 'set'
+		'name': 'keyword.control.talkscript'
+	},
+	{
+		'match': ' stat '
+		'name': 'entity.name.type.talkscript'
+	},
+	{
+		'match': 'NPC/(.+?)/(.+?)/(.+?) '
+		'name': 'variable.talkscript'
+	},
+	{
+		'match': 'player|victor|loser'
+		'name': 'variable.talkscript'
 	}
 ]
